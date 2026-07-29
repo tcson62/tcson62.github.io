@@ -34,11 +34,11 @@
         <a href="#about" class="nav-link active">Overview</a>
         <a href="#awards" class="nav-link">Honors & Awards</a>
         <a href="#research" class="nav-link">Research</a>
-        <a href="#publications" class="nav-link">Publications</a>
         <a href="#systems" class="nav-link">Systems</a>
+        <a href="#tutorials" class="nav-link">Tutorials</a>
+        <a href="#publications" class="nav-link">Publications</a>
         <a href="#team" class="nav-link">Team & Students</a>
         <a href="#books" class="nav-link">Books & Activities</a>
-        <a href="#tutorials" class="nav-link">Tutorials</a>
         <a href="#gallery" class="nav-link">Gallery</a>
       </div>
 
@@ -238,55 +238,6 @@
     </div>
   </section>
 
-  <!-- Publications Section -->
-  <section class="section section-alt" id="publications">
-    <div class="container">
-      <h2 class="section-title">Publications <span class="gradient-text">Archive</span></h2>
-      <p class="section-subtitle">Complete list of publications, journal papers, conference proceedings, and book chapters</p>
-
-      <div class="pub-controls">
-        <div class="search-box">
-          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-          <input type="text" id="pub-search" placeholder="Search by paper title, co-author, venue, or keyword...">
-        </div>
-
-        <div class="filter-group" style="margin-bottom: 1rem;">
-          <span class="filter-label">Years:</span>
-          <div id="year-filters">
-            <button class="filter-chip active" data-year="ALL">All</button>
-            <button class="filter-chip" data-year="2020">2020</button>
-            <button class="filter-chip" data-year="2019">2019</button>
-            <button class="filter-chip" data-year="2018">2018</button>
-            <button class="filter-chip" data-year="2017">2017</button>
-            <button class="filter-chip" data-year="2016-2010">2016–2010</button>
-            <button class="filter-chip" data-year="2009-2000">2009–2000</button>
-            <button class="filter-chip" data-year="1990s">1990s</button>
-          </div>
-        </div>
-
-        <div class="filter-group">
-          <span class="filter-label">Topics:</span>
-          <div id="tag-filters">
-            <button class="filter-chip active" data-tag="ALL">All Topics</button>
-            <button class="filter-chip" data-tag="Answer Set Programming">Answer Set Programming</button>
-            <button class="filter-chip" data-tag="Planning & Scheduling">Planning & Scheduling</button>
-            <button class="filter-chip" data-tag="Multi-Agent Systems">Multi-Agent Systems</button>
-            <button class="filter-chip" data-tag="Knowledge Representation">Knowledge Representation</button>
-            <button class="filter-chip" data-tag="Explainable AI & ML">Explainable AI & ML</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="pub-stats">
-        <span id="pub-count">Loading publications...</span>
-      </div>
-
-      <div class="pub-list" id="pub-list">
-        <!-- Rendered dynamically by script.js -->
-      </div>
-    </div>
-  </section>
-
   <!-- Systems & Software Section -->
   <section class="section section-alt" id="systems">
     <div class="container">
@@ -338,6 +289,122 @@
             <span style="font-size: 0.85rem; color: var(--text-muted);">ICAPS 2012</span>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tutorials & Invited Talks Section -->
+  <section class="section" id="tutorials">
+    <div class="container">
+      <h2 class="section-title">Tutorials & <span class="gradient-text">Invited Talks</span></h2>
+      <p class="section-subtitle">Educational presentations given at top AI conferences and summer schools</p>
+
+      <div class="tutorials-grid">
+        <div class="tutorial-card">
+          <div>
+            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">IJCAI 2019</span>
+            <h3>The AI Universe of “Actions”</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Agency, Causality, Commonsense and Deception. Joint tutorial with Chitta Baral.</p>
+          </div>
+          <a href="tutorials/rac-ijcai19.html" class="pub-btn" style="width: fit-content;">View Details</a>
+        </div>
+
+        <div class="tutorial-card">
+          <div>
+            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">AAAI 2019</span>
+            <h3>Multi-Agent Pathfinding: Models & Solvers</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Joint tutorial with Roman Barták, Philipp Obermeier, Torsten Schaub, and Roni Stern.</p>
+          </div>
+          <a href="http://ktiml.mff.cuni.cz/~bartak/AAAI2019/" target="_blank" class="pub-btn" style="width: fit-content;">External Link</a>
+        </div>
+
+        <div class="tutorial-card">
+          <div>
+            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">ICAPS 2019</span>
+            <h3>Logic Programming: Foundations & Applications</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Joint tutorial with Enrico Pontelli and Marcello Balduccini.</p>
+          </div>
+          <a href="https://www.youtube.com/watch?v=_d8yPQu7E94&t=1318s" target="_blank" class="pub-btn" style="width: fit-content;">
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+            YouTube Video
+          </a>
+        </div>
+
+        <div class="tutorial-card">
+          <div>
+            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">Dagstuhl 2017</span>
+            <h3>KRR and Epistemic Planning</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Specification and Implementation Issues in Epistemic Planning.</p>
+          </div>
+          <a href="tutorials/2017-dagstuhl.pdf" target="_blank" class="pub-btn" style="width: fit-content;">Download PDF</a>
+        </div>
+
+        <div class="tutorial-card">
+          <div>
+            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">ICAPS 2007</span>
+            <h3>Approximation Based Reasoning & Planning</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Bridging Reasoning About Actions & Changes and Conformant Planning.</p>
+          </div>
+          <a href="tutorials/rac-cp.pdf" target="_blank" class="pub-btn" style="width: fit-content;">Download PDF</a>
+        </div>
+
+        <div class="tutorial-card">
+          <div>
+            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">ICTAC 2005</span>
+            <h3>Answer Set Programming Tutorial</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Declarative programming semantics and applications in AI.</p>
+          </div>
+          <a href="tutorials/asp-tutorial.pdf" target="_blank" class="pub-btn" style="width: fit-content;">Download PDF</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section class="section section-alt" id="publications">
+    <div class="container">
+      <h2 class="section-title">Publications <span class="gradient-text">Archive</span></h2>
+      <p class="section-subtitle">Complete list of publications, journal papers, conference proceedings, and book chapters</p>
+
+      <div class="pub-controls">
+        <div class="search-box">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+          <input type="text" id="pub-search" placeholder="Search by paper title, co-author, venue, or keyword...">
+        </div>
+
+        <div class="filter-group" style="margin-bottom: 1rem;">
+          <span class="filter-label">Years:</span>
+          <div id="year-filters">
+            <button class="filter-chip active" data-year="ALL">All</button>
+            <button class="filter-chip" data-year="2020">2020</button>
+            <button class="filter-chip" data-year="2019">2019</button>
+            <button class="filter-chip" data-year="2018">2018</button>
+            <button class="filter-chip" data-year="2017">2017</button>
+            <button class="filter-chip" data-year="2016-2010">2016–2010</button>
+            <button class="filter-chip" data-year="2009-2000">2009–2000</button>
+            <button class="filter-chip" data-year="1990s">1990s</button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <span class="filter-label">Topics:</span>
+          <div id="tag-filters">
+            <button class="filter-chip active" data-tag="ALL">All Topics</button>
+            <button class="filter-chip" data-tag="Answer Set Programming">Answer Set Programming</button>
+            <button class="filter-chip" data-tag="Planning & Scheduling">Planning & Scheduling</button>
+            <button class="filter-chip" data-tag="Multi-Agent Systems">Multi-Agent Systems</button>
+            <button class="filter-chip" data-tag="Knowledge Representation">Knowledge Representation</button>
+            <button class="filter-chip" data-tag="Explainable AI & ML">Explainable AI & ML</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-stats">
+        <span id="pub-count">Loading publications...</span>
+      </div>
+
+      <div class="pub-list" id="pub-list">
+        <!-- Rendered dynamically by script.js -->
       </div>
     </div>
   </section>
@@ -611,75 +678,8 @@
     </div>
   </section>
 
-  <!-- Tutorials Section -->
-  <section class="section" id="tutorials">
-    <div class="container">
-      <h2 class="section-title">Tutorials & <span class="gradient-text">Invited Talks</span></h2>
-      <p class="section-subtitle">Educational presentations given at top AI conferences and summer schools</p>
-
-      <div class="tutorials-grid">
-        <div class="tutorial-card">
-          <div>
-            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">IJCAI 2019</span>
-            <h3>The AI Universe of “Actions”</h3>
-            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Agency, Causality, Commonsense and Deception. Joint tutorial with Chitta Baral.</p>
-          </div>
-          <a href="tutorials/rac-ijcai19.html" class="pub-btn" style="width: fit-content;">View Details</a>
-        </div>
-
-        <div class="tutorial-card">
-          <div>
-            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">AAAI 2019</span>
-            <h3>Multi-Agent Pathfinding: Models & Solvers</h3>
-            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Joint tutorial with Roman Barták, Philipp Obermeier, Torsten Schaub, and Roni Stern.</p>
-          </div>
-          <a href="http://ktiml.mff.cuni.cz/~bartak/AAAI2019/" target="_blank" class="pub-btn" style="width: fit-content;">External Link</a>
-        </div>
-
-        <div class="tutorial-card">
-          <div>
-            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">ICAPS 2019</span>
-            <h3>Logic Programming: Foundations & Applications</h3>
-            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Joint tutorial with Enrico Pontelli and Marcello Balduccini.</p>
-          </div>
-          <a href="https://www.youtube.com/watch?v=_d8yPQu7E94&t=1318s" target="_blank" class="pub-btn" style="width: fit-content;">
-            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-            YouTube Video
-          </a>
-        </div>
-
-        <div class="tutorial-card">
-          <div>
-            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">Dagstuhl 2017</span>
-            <h3>KRR and Epistemic Planning</h3>
-            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Specification and Implementation Issues in Epistemic Planning.</p>
-          </div>
-          <a href="tutorials/2017-dagstuhl.pdf" target="_blank" class="pub-btn" style="width: fit-content;">Download PDF</a>
-        </div>
-
-        <div class="tutorial-card">
-          <div>
-            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">ICAPS 2007</span>
-            <h3>Approximation Based Reasoning & Planning</h3>
-            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Bridging Reasoning About Actions & Changes and Conformant Planning.</p>
-          </div>
-          <a href="tutorials/rac-cp.pdf" target="_blank" class="pub-btn" style="width: fit-content;">Download PDF</a>
-        </div>
-
-        <div class="tutorial-card">
-          <div>
-            <span class="pub-year" style="display: inline-block; margin-bottom: 0.5rem;">ICTAC 2005</span>
-            <h3>Answer Set Programming Tutorial</h3>
-            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Declarative programming semantics and applications in AI.</p>
-          </div>
-          <a href="tutorials/asp-tutorial.pdf" target="_blank" class="pub-btn" style="width: fit-content;">Download PDF</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Photo Gallery & Links -->
-  <section class="section section-alt" id="gallery">
+  <section class="section" id="gallery">
     <div class="container">
       <h2 class="section-title">Photo <span class="gradient-text">Gallery</span> & Links</h2>
       <p class="section-subtitle">Memories from Stanford KSL, UTEP, family, and favorite academic links</p>
