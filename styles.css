@@ -193,6 +193,15 @@ h1, h2, h3, h4 {
   font-weight: 700;
   font-size: 1rem;
   box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.nav-brand .avatar-mini img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
 }
 
 .nav-links {
@@ -386,8 +395,8 @@ h1, h2, h3, h4 {
 }
 
 .profile-avatar {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto 1.5rem;
   border-radius: 50%;
   background: var(--accent-gradient);
@@ -399,6 +408,15 @@ h1, h2, h3, h4 {
   font-weight: 800;
   box-shadow: var(--shadow-md);
   border: 4px solid var(--bg-card);
+  overflow: hidden;
+}
+
+.profile-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
 }
 
 .profile-card h3 {
